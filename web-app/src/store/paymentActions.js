@@ -44,7 +44,7 @@ export const getPayments = () => async dispatch => {
         payload: res.data
       });
     } catch (error) {
-      history.push('/dashboard');
+      history.push('/');
     }
   };
   
