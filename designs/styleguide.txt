@@ -1,0 +1,16 @@
+Greys
+#445368
+#8d99aa
+#d0d5dc
+
+Blue
+#00b3f5
+
+Green
+#00cd50
+
+Red
+#c81a0d
+
+Font Family
+Hind

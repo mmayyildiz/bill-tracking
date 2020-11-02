@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdatePayment should render with given state from Redux store 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <p>
+        
+      Edit A Bill
+       
+    </p>
+  </div>,
+  <div
+    className="sub-header"
+  >
+    <p
+      className="sub-header-title"
+    >
+       
+      foo
+       
+    </p>
+    <p
+      className="sub-header-title-description"
+    >
+       
+      If you’d like to edit your bill you can change the details below
+    </p>
+  </div>,
+  <div
+    className="content"
+  >
+    <div
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-text-input"
+        name="name"
+        onChange={[Function]}
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="amount"
+        onChange={[Function]}
+        placeholder="Amount"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="startDate"
+        onChange={[Function]}
+        placeholder="Start Date"
+        type="date"
+        value=""
+      />
+      <select
+        className="form-text-input"
+        name="frequency"
+        onChange={[Function]}
+        placeholder="Frequency"
+        value=""
+      >
+        <option
+          value="Weekly"
+        >
+          Weekly
+        </option>
+        <option
+          value="Monthly"
+        >
+          Monthly
+        </option>
+        <option
+          value="Annually"
+        >
+          Annually
+        </option>
+      </select>
+      <div
+        className="btn-container"
+      >
+        <input
+          className="btn btn-green"
+          onClick={[Function]}
+          type="button"
+          value="Save"
+        />
+        <input
+          className="btn btn-red"
+          onClick={[Function]}
+          type="button"
+          value="Delete"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UpdatePayment should render with props 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <p>
+        
+      Edit A Bill
+       
+    </p>
+  </div>,
+  <div
+    className="sub-header"
+  >
+    <p
+      className="sub-header-title"
+    >
+       
+      foo
+       
+    </p>
+    <p
+      className="sub-header-title-description"
+    >
+       
+      If you’d like to edit your bill you can change the details below
+    </p>
+  </div>,
+  <div
+    className="content"
+  >
+    <div
+      className="form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-text-input"
+        name="name"
+        onChange={[Function]}
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="amount"
+        onChange={[Function]}
+        placeholder="Amount"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="startDate"
+        onChange={[Function]}
+        placeholder="Start Date"
+        type="date"
+        value=""
+      />
+      <select
+        className="form-text-input"
+        name="frequency"
+        onChange={[Function]}
+        placeholder="Frequency"
+        value=""
+      >
+        <option
+          value="Weekly"
+        >
+          Weekly
+        </option>
+        <option
+          value="Monthly"
+        >
+          Monthly
+        </option>
+        <option
+          value="Annually"
+        >
+          Annually
+        </option>
+      </select>
+      <div
+        className="btn-container"
+      >
+        <input
+          className="btn btn-green"
+          onClick={[Function]}
+          type="button"
+          value="Save"
+        />
+        <input
+          className="btn btn-red"
+          onClick={[Function]}
+          type="button"
+          value="Delete"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;

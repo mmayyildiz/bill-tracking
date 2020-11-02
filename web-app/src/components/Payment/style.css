@@ -1,0 +1,31 @@
+.payment{
+    border-bottom: 1px solid #102A58;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.name {
+    color: #445368;
+    font-size: 22px;
+}
+
+.amount {
+    color: #445368;
+    font-size: 22px;
+}
+
+.frequency {
+    color: #8d99aa;
+    margin-top: 7px;
+}
+
+.dueDate {
+    color: #8d99aa;
+    margin-top: 7px;
+}
+
+.link{
+    text-decoration: none;
+}

@@ -1,0 +1,6 @@
+export const CREATE_PAYMENT = "CREATE_PAYMENT";
+export const UPDATE_PAYMENT = "UPDATE_PAYMENT";
+export const DELETE_PAYMENT = "DELETE_PAYMENT";
+export const GET_PAYMENT = "GET_PAYMENT";
+export const GET_PAYMENTS = "GET_PAYMENTS";
+export const GET_ERRORS = "GET_ERRORS";

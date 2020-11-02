@@ -1,0 +1,18 @@
+.btn-container{
+    margin-top:50px;  
+    text-align: center;
+  }
+  
+  .btn{
+   padding: 1rem 10rem;
+   font-size: 1.2rem;
+   border: none;
+   border-radius: 10rem;
+   cursor: pointer;
+   text-decoration: none;
+  }
+  
+  .btn-green{
+    background: #00cd50;
+    color: #fff;
+  }

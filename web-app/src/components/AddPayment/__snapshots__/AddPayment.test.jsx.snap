@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPayment should render with given state from Redux store 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <p>
+        
+      Add A Bill
+       
+    </p>
+  </div>,
+  <div
+    className="sub-header"
+  >
+    <p
+      className="sub-header-title"
+    >
+       
+      Enter your details
+       
+    </p>
+    <p
+      className="sub-header-title-description"
+    >
+       
+      Keep track of your household spending by adding your bills
+    </p>
+  </div>,
+  <div
+    className="content"
+  >
+    <div
+      className="form"
+    >
+      <input
+        className="form-text-input"
+        name="name"
+        onChange={[Function]}
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="amount"
+        onChange={[Function]}
+        placeholder="Amount"
+        type="text"
+        value=""
+      />
+      <input
+        className="form-text-input"
+        name="startDate"
+        onChange={[Function]}
+        placeholder="Start Date"
+        type="date"
+        value=""
+      />
+      <select
+        className="form-text-input"
+        name="frequency"
+        onChange={[Function]}
+        placeholder="Frequency"
+        value="Monthly"
+      >
+        <option
+          value="Weekly"
+        >
+          Weekly
+        </option>
+        <option
+          value="Monthly"
+        >
+          Monthly
+        </option>
+        <option
+          value="Annually"
+        >
+          Annually
+        </option>
+      </select>
+      <div
+        className="btn-container"
+      >
+        <input
+          className="btn btn-green"
+          onClick={[Function]}
+          type="button"
+          value="Add new payment"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
